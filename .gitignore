@@ -1,6 +1,11 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+public int[] biggerTwo(int[] a, int[] b) {
+  int first = a[0]+a[1];
+  int second = b[0]+b[1];
+  if (first>=second)
+  {
+  return a;
+  }
+  else{
+  return b;
+  }
+}
